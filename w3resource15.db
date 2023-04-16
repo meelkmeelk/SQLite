@@ -1,0 +1,2 @@
+SELECT TRIM(first_name)
+FROM employees;
