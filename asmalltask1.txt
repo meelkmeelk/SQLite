@@ -1,0 +1,14 @@
+CREATE DATABASE books_database;
+
+USE books_database;
+
+CREATE TABLE books (
+    id INTEGER PRIMARY KEY,
+    title TEXT NOT NULL,
+    author TEXT NOT NULL,
+    year INTEGER
+);
+
+INSERT INTO books (title, author, year) VALUES
+    ('The Da Vinci Code', 'Dan Brown', 2003);
+SELECT * FROM books;
