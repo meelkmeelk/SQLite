@@ -1,0 +1,4 @@
+SELECT * 
+FROM employees 
+ORDER BY first_name DESC;
+/*learnt from cyberthon that "*" means select all/
